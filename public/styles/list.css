@@ -1,6 +1,5 @@
 .list {
   background-color: yellow;
-  display: flex;
   gap: 10px;
   width: 100%;
   font-size: 24px;
@@ -13,13 +12,16 @@
   gap: 30px;
   text-align: center;
   text-decoration: underline;
+  border-radius: 50%!important;
+  
+}
+.checkboxLabel:after{
+    border-radius: 50%;
 }
 .checkbox {
   margin-left: 20px;
   width: 24px;
-  border-radius: 50%;
   cursor: pointer;
-}
-.checkbox checkbox { 
-    border-radius: 50%;
+  outline: none;
+  border-radius: 40px;
 }

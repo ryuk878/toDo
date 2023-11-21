@@ -45,6 +45,10 @@ function listHandler(task: Task) {
   label.className = "checkboxLabel"
   checkbox.dataset.itemId = task.id;
   item.append(label);
+  item.className = "item"
   list?.append(item);
+  checkbox.style.borderRadius = "50px"
 }
 // toggle completed
+// style
+
