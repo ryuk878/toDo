@@ -5,19 +5,23 @@
     <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
-      name="description"
+      name="To do list based on local storage"
       content="Web site created using create-snowpack-app"
     />
-    <link rel="stylesheet" type="text/css" href="/index.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/index.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/add.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/new-task-title.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/wrapper.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/list.css" />
     <script src="dist/index.js" type="module"></script>
-    <title>Todo App Typescript</title>
+    <title>Todo App based on localstorage TS</title>
   </head>
   <body>
     <div class="content-wrapper">
       <form id="new-task-form">
         <div class="wrapper">
-          <input type="text" id="new-task-title" />
-          <button type="submit" id="add">Add</button>
+          <input type="text" class="new-task-title" id="new-task-title" placeholder="Enter your task here"/>
+          <button type="submit" class="add" id="add">Add</button>
         </div>
         <ul id="list" class="list"></ul>
       </form>

@@ -39,8 +39,10 @@ function listHandler(task: Task) {
   });
 
   checkbox.type = 'checkbox';
+  checkbox.className = "checkbox"
   checkbox.checked = task.completed;
   label.append(checkbox, task.title as string);
+  label.className = "checkboxLabel"
   checkbox.dataset.itemId = task.id;
   item.append(label);
   list?.append(item);

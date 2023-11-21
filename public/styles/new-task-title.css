@@ -1,0 +1,11 @@
+.new-task-title {
+  margin-top: 40px;
+  border-radius: 40px;
+  border: solid black;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.new-task-title:focus {
+  outline: none;
+}

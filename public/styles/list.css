@@ -1,0 +1,25 @@
+.list {
+  background-color: yellow;
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  font-size: 24px;
+   background-image: linear-gradient(315deg,  #74d680 0% ,#ff7878 100%);
+  
+}
+
+.checkboxLabel {
+  display: flex;
+  gap: 30px;
+  text-align: center;
+  text-decoration: underline;
+}
+.checkbox {
+  margin-left: 20px;
+  width: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.checkbox checkbox { 
+    border-radius: 50%;
+}

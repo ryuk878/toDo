@@ -1,0 +1,5 @@
+.wrapper {
+  display: flex;
+  gap: 20px;
+  background-image: linear-gradient(315deg, #ff7878 0%, #74d680 100%);
+}

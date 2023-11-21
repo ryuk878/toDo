@@ -1,0 +1,8 @@
+.add {
+  margin-top: 40px;
+  border-radius: 40px;
+  border: solid black;
+  margin-bottom: 40px;
+  width: 150px;
+  cursor: pointer;
+}
