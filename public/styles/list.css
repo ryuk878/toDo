@@ -1,19 +1,16 @@
 .list {
-  background-color: yellow;
   gap: 10px;
   width: 100%;
   font-size: 24px;
-   background-color: #2B2A4C;
-   text-decoration: underline;
+   background-color:black;
 }
 
 .checkboxLabel {
   display: flex;
   gap: 30px;
   text-align: center;
-  text-decoration: underline;
   border-radius: 50%!important;
-  color: white;
+  color: #FF6C22;
   
 }
 .checkboxLabel:after{

@@ -1,9 +1,10 @@
 .new-task-title {
   margin-top: 40px;
   border-radius: 40px;
-  border: solid black;
+  border: solid #FF6C22;
   margin-bottom: 40px;
   text-align: center;
+  color: #FF6C22
 }
 
 .new-task-title:focus {

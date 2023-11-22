@@ -1,8 +1,9 @@
 .add {
   margin-top: 40px;
   border-radius: 40px;
-  border: solid black;
+  border: solid #FF6C22;
   margin-bottom: 40px;
   width: 150px;
   cursor: pointer;
+  color : #FF6C22
 }
